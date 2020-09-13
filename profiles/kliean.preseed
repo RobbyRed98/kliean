@@ -1,0 +1,4 @@
+d-i base-installer/install-recommends boolean true
+d-i apt-setup/multiarch string i386 amd64
+d-i apt-setup/non-free boolean true
+d-i apt-setup/contrib boolean false
